@@ -1,6 +1,6 @@
 {
   "name": "connect-four-game",
-  "homepage":"https://github.com/polzbit/ConnectFourGame",
+  "homepage":"https://polzbit.github.io/ConnectFourGame/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
