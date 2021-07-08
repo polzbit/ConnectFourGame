@@ -4,8 +4,13 @@
 
 connect four game built using ReactJS. \
 the goal finish a row of four tiles before the other player does. \
-the game save move list and win history, you can at any point go back to previous moves.
+the game save move list and win history, you can at any point go back to previous moves.	\
 
+### Demo
+	
+You can check demo of this project, in the following link:
+[Demo Connect Four Game](https://polzbit.github.io/ConnectFourGame/)
+	
 ## How to built and run project
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
