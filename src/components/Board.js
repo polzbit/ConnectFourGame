@@ -61,7 +61,6 @@ const Board = () => {
             current_move: 0,
             boardState: new Array(7).fill(new Array(6).fill(null)),
             history: [{playerTurn: 'Red', currentBoard: new Array(7).fill(new Array(6).fill(null))}],
-            win_history: [],
         }));
     }
 
