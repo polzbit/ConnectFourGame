@@ -1,0 +1,156 @@
+
+.Game {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .GameTitle {
+    color: #3399FF;
+    width: 100%;
+  }
+  .ui-button {
+      background-color: #3399FF;
+      border: 1px solid #3399FF;
+      border-radius: 15px;
+      display: inline-block;
+      color: #FFF;
+      font-size: 12pt;
+      padding: 7px 28px;
+      text-decoration: none;
+      margin: 5px;
+      transition: all 0.5s;
+      max-width: 160px;
+      min-width: 160px;
+  }
+  
+  .ui-button:hover {
+      background-color: lightblue;
+      font-size: 14pt;
+  }
+  .ui-row {
+    align-items: center;
+    justify-content: center;
+  }
+  .GameBoard {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  .double-column {
+    flex: 2!important;
+  }
+  .Board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .TileHole {
+    padding: 5px;
+    margin: 1px;
+    min-width: 30px;
+    min-height: 30px;
+    border: 1px solid rgb(59, 192, 55);
+    border-radius: 50px;
+    cursor: grab;
+  }
+  
+  .TileHole div {
+    position: relative;
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 50px;
+    top: -400px;
+    transition: transform 0.5s;
+  }
+  
+  .Red {
+    background-color: #FF456C;
+    transform: translateY(400px);
+  }
+  
+  .Blue {
+    background-color: #2CC5FF;
+    transform: translateY(400px);
+  }
+  
+  .winMsg {
+    margin: 20px;
+    font-size: 0pt;
+    font: 12pt;
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.18, 0.99, 0.8, 1.17);
+  }
+  
+  .show {
+    opacity: 1;
+    font-size: 20pt;
+  }
+  
+  .MovesTitle, .WinTitle {
+    color: #5c5c5c33
+  }
+  .MovesList , .WinList{
+    text-align: left;
+    margin-left: 3vw;
+  }
+  
+  .MovesList li, .WinList li {
+    margin-top: 2vh;
+    padding-left: 2vw;
+  }
+
+  .MovesList li button {
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    color: rgb(113, 153, 204);
+    text-decoration:underline;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .MovesList li button:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    color: rgb(81, 134, 204);
+  }
+  
+  .MovesList li button:active {
+    outline: none;
+    border: none;
+  }
+  
+  .MovesList li button:focus {
+    outline: 0;
+  }
+  .redTitle {
+    color: #FF456C;
+    font-weight: 800;
+  }
+  
+  .blueTitle {
+    color: #2CC5FF;
+    font-weight: 800;
+  }
+  
+  
